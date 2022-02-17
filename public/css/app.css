@@ -1,7 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
 .movie_card {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 .movie_card .movie_card_contained {
-  width: 20%;
+  width: calc(20% - 2em);
+  height: 300px;
   border: 1px solid black;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.movie_card .movie_card_contained h1 {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.movie_card .movie_card_contained ul {
+  list-style: none;
+}
+.movie_card .movie_card_contained ul li {
+  line-height: 2em;
 }
