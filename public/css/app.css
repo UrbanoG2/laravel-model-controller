@@ -1,0 +1,7 @@
+.movie_card {
+  display: flex;
+}
+.movie_card .movie_card_contained {
+  width: 20%;
+  border: 1px solid black;
+}

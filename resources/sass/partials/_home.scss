@@ -1,0 +1,9 @@
+.movie_card {
+    display: flex;
+    .movie_card_contained {
+
+        width: calc(100% / 5);
+        border: 1px solid black;
+    }
+    
+}
